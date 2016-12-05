@@ -1,4 +1,5 @@
 <?php
 
 
-Route::get('/timezone',"Signum\\Timezone\\Http\\Controllers\\TimezoneController@index");
+Route::get('/timezone',['middleware'=>'timezone_middleware',
+                        'uses'=>"Signum\\Timezone\\Http\\Controllers\\TimezoneController@index"]);

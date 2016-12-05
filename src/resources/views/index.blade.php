@@ -6,6 +6,6 @@
         <link rel="stylesheet" href="{{ asset('signum/timezone/css/style.css') }}">
     </head>
     <body>
-        <h3>{{$time}}</h3>
+        <h3>@lang('timezone::timezone.hello') - {{$time}}</h3>
     </body>
 </html>
