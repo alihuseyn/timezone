@@ -1,6 +1,5 @@
 Signum TTE
 ===============================
-***
 ## Package - Timezone
 Timezone is test package. An all steps is followed step by steps which are mentioned on documentation
 
