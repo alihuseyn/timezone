@@ -1,0 +1,21 @@
+{
+    "name": "signum/timezone",
+    "description": "Simple Timezone Application",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.3",
+        "illuminate/routing": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "Alihuseyn Gulmammadov",
+            "email": "alihuseyn13@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4": {
+           "Signum\\Timezone\\": "src/"
+       }
+    },
+    "minimum-stability": "dev"
+}
